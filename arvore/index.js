@@ -37,7 +37,7 @@ class Arvore {
 
   buscaPorProfundidade(arvore, profundidade = 0) {
 
-    if (arvore && profundidade < 4000) {
+    if (arvore && profundidade < 20) {
 
       let jogo = new Jogo();
 
